@@ -1,2 +1,3 @@
 # UCUILib
-UIKit related personal utility/extension library
+
+A description of this package.
