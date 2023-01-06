@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIApplication
+public extension UIApplication
 {
     func currentUIWindow() -> UIWindow?
     {
