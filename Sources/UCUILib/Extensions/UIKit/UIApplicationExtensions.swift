@@ -11,6 +11,6 @@ public extension UIApplication
 {
     func currentUIWindow() -> UIWindow?
     {
-        return UIApplication.shared.connectedScenes.flatMap { ($0 as? UIWindowScene)?.windows ?? [] }.first { $0.isKeyWindow }
+        return connectedScenes.flatMap { ($0 as? UIWindowScene)?.windows ?? [] }.first { $0.isKeyWindow }
     }    
 }
