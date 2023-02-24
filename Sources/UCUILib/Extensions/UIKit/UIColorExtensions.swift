@@ -21,7 +21,7 @@ public extension UIColor {
         self.init(red:(netHex >> 16) & 0xff, green:(netHex >> 8) & 0xff, blue:netHex & 0xff)
     }
     
-    func withAlpha(alpha newAlpha : CGFloat) -> UIColor
+    func withAlpha(_ newAlpha : CGFloat) -> UIColor
     {
         var red : CGFloat = 0, green : CGFloat = 0, blue : CGFloat = 0, alpha : CGFloat = 0
         getRed(&red, green: &green, blue: &blue, alpha: &alpha)
