@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView
+public extension UIView
 {
     //let myCustomView: CustomView = UIView.fromNib()
     //or
@@ -19,7 +19,7 @@ extension UIView
     }
 }
 
-extension UIView
+public extension UIView
 {
     /// Returns the first constraint with the given identifier, if available.
     ///

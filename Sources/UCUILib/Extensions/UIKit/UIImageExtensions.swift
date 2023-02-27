@@ -9,7 +9,7 @@ import UIKit
 import CoreGraphics
 
 @available(iOS 10.0, *)
-extension UIImage
+public extension UIImage
 {
     func resizeTo(_ newSize:CGSize) -> UIImage
     {
